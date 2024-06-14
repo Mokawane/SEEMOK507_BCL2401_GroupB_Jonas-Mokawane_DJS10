@@ -23,14 +23,14 @@ export default function App() {
   return (
     <div>
       <h1>blogPost</h1>
-      <ul>
+      <ol>
 {posts.map(post => (
   <li key={post.id}>
     <h2>{post.title}</h2>
     <p>{post.body}</p>
   </li>
 ))}
-</ul>
+</ol>
 
     </div>
   );
